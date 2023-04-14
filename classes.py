@@ -1,3 +1,6 @@
 class person():
-    def indentify(self):
-        print("I am a person")
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+        
