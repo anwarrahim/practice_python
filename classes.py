@@ -1,2 +1,3 @@
 class person():
-    def 
+    def indentify(self):
+        print("I am a person")
