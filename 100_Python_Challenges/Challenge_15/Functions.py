@@ -40,3 +40,4 @@ Write a function calculate_total that takes a list of numbers as input and retur
 def calculate
 
 
+
