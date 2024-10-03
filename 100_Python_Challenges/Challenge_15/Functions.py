@@ -65,3 +65,6 @@ def find_max():
     print(maximum)
 find_max()
 find_max()
+
+# other method
+
