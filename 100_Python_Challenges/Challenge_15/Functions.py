@@ -54,4 +54,8 @@ def convert_temp(celsius):
 Fahrenheit = int(convert_temp(45))
 print(Fahrenheit)
 
-
+"""
+Task 6:
+Write a function find_max that takes a list of numbers as input and returns the largest number in the list.
+"""
+def find_max(a, b, c, d):
