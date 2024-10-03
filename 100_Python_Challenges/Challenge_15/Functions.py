@@ -12,8 +12,11 @@ Task 2:
 Write a function is_prime that takes a number as input and returns True if it's prime, and False otherwise.
 """
 def is_prime(num):
-    if(num % num == 0):
-        print(True)
-    else:
-        print(False)
-is_prime(9)
+    if num <=1:
+        return False
+    for i in range(2, int(num ** 1.5) +1):
+        if num % i ==0:
+            return True
+        else:
+            False
+is_prime(29)
