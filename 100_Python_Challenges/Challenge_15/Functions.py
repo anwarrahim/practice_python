@@ -1,3 +1,4 @@
+import numpy as np
 """
 Task 1:
 Write a function square that takes a number as input and returns its square.
@@ -58,4 +59,9 @@ print(Fahrenheit)
 Task 6:
 Write a function find_max that takes a list of numbers as input and returns the largest number in the list.
 """
-def find_max(a, b, c, d):
+def find_max():
+    numbers = [2,4,6,74,76,85,88]
+    maximum = max(numbers)
+    print(maximum)
+find_max()
+find_max()
