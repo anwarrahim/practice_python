@@ -49,9 +49,9 @@ Task 5:
 Write a function convert_temperature that takes a temperature in Celsius as input and returns the equivalent temperature in Fahrenheit.
 """
 
-
-
-
-
+def convert_temp(celsius):
+    return (celsius * 1.8) + 32
+Fahrenheit = int(convert_temp(45))
+print(Fahrenheit)
 
 
