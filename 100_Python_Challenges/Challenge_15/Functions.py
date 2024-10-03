@@ -32,3 +32,8 @@ def greet(name):
 
 greet('Anwar Rahim')
 greet("maaz khan")
+
+"""
+Task 4:
+Write a function calculate_total that takes a list of numbers as input and returns their total sum.
+"""
