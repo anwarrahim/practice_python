@@ -1,4 +1,9 @@
+from itertools import count
+
 import numpy as np
+from dask.array import minimum
+from skimage.filters.rank import maximum
+
 """
 Task 1:
 Write a function square that takes a number as input and returns its square.
@@ -68,3 +73,18 @@ find_max()
 
 # other method
 
+def find_min(numbers):
+    if not numbers:
+        return None
+    count = 0
+    minimum = numbers[0]
+    for number in numbers:
+        if number < minimum:
+            minimum = number
+    count=+1
+
+    return minimum
+
+numbers = [5,3,6,3,1,7,8]
+
+print(find_min(numbers))
