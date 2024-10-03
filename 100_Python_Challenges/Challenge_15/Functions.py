@@ -44,7 +44,10 @@ print(total)
 
 
 
-
+"""
+Task 5:
+Write a function convert_temperature that takes a temperature in Celsius as input and returns the equivalent temperature in Fahrenheit.
+"""
 
 
 
