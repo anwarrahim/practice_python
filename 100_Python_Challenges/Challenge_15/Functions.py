@@ -37,7 +37,12 @@ greet("maaz khan")
 Task 4:
 Write a function calculate_total that takes a list of numbers as input and returns their total sum.
 """
-def calculate
+def calculate(a, b, c):
+    return a+b+c
+total = calculate(2,5,6)
+print(total)
+
+
 
 
 
