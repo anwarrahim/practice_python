@@ -21,3 +21,14 @@ def is_prime(num):
           return False
 
 print(is_prime(6))
+
+"""
+Task 3:
+Write a function greet_multiple that takes a list of names as input and prints a personalized greeting message for each name.
+"""
+
+def greet(name):
+    print("Hi "+ ""+name + ", How are you? I want to tell you about tommorow plan")
+
+greet('Anwar Rahim')
+greet("maaz khan")
