@@ -79,10 +79,10 @@ def find_min(numbers):
     count = 0
     minimum = numbers[0]
     for number in numbers:
+        count +=1
         if number < minimum:
             minimum = number
-    count=+1
-
+    print(f"Number of iterations: {count}")
     return minimum
 
 numbers = [5,3,6,3,1,7,8]
