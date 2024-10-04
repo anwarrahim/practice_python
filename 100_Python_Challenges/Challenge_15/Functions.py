@@ -88,3 +88,11 @@ def find_min(numbers):
 numbers = [5,3,6,3,1,7,8]
 
 print(find_min(numbers))
+
+"""
+Use format() method to insert values into your string, indicated by braces.
+
+"""
+name ='Anwar Rahim'
+age = 24
+print('my name is {} and my age is {} year old'.format(name,age))
