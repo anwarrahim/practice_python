@@ -9,7 +9,6 @@ depart = 'Software Eng'
 experience = 2
 print("I am {depart} and my experience is {experience} years".format(experience=experience,depart=depart))
 
-
 # decimal place
 
 house_area = 23.343
