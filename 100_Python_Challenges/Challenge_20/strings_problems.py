@@ -12,3 +12,4 @@ print(zip_checker('2806'))      # Should return 02806.
 print(zip_checker('0280'))      # Should return 'Invalid ZIP Code.'
 print(zip_checker('00280'))
 
+
